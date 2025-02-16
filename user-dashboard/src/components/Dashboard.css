@@ -1,0 +1,164 @@
+.dashboard {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f6fa;
+    border-radius: 16px;
+    height: calc(100vh - 40px);
+    overflow-y: auto;
+    margin-left: 300px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: transparent;
+    border-bottom: 1px solid #eee;
+    border-radius: 16px 16px 0 0;
+    margin: -20px -20px 0 -20px;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .username {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .nav-icon {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-icon:hover {
+    transform: scale(0.9);
+    background-color: #0a0f2c;
+  }
+  
+  .notification-wrapper {
+    position: relative;
+  }
+  
+  .notification-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #ff4757;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    min-width: 20px;
+    text-align: center;
+  }
+  
+  .dashboard-content {
+    padding: 20px;
+  }
+  
+  .search-filters {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .filter-select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-width: 150px;
+  }
+  
+  .filter-btn {
+    padding: 8px 16px;
+    background-color: #0a0f2c;  
+    color: white;               
+    border: none;              
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+  }  
+
+  .filter-btn:hover {
+    transform: scale(0.9);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .lawyers-list {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .list-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 100px;
+    padding: 15px;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .lawyer-item {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 100px;
+    padding: 15px;
+    align-items: center;
+    border-top: 1px solid #eee;
+  }
+  
+  .lawyer-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .lawyer-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .view-btn {
+    background-color: #0a0f2c;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;  
+  }
+  
+  .view-btn:hover {
+    transform: scale(0.9);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
